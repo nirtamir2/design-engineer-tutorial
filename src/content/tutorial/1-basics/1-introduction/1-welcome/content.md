@@ -1,7 +1,7 @@
 ---
 type: lesson
 title: Welcome to TutorialKit
-focus: /counter.js
+focus: /App.tsx
 ---
 
 # Welcome to TutorialKit
@@ -12,7 +12,7 @@ To kick things off, we have prepared a small demo lesson for you, where we'll di
 
 Let's look at the preview on the right for a moment and try to click on the button that says `counter is 0`. We'll notice that it doesn't work.
 
-In the code for `counter.js`, which you can find on the right, we have a `setupCounter` function responsible for initializing our counter app. However, a crucial component is missing: an event listener for the button.
+In the code for `App.tsx`, which you can find on the right, we have a `setupCounter` function responsible for initializing our counter app. However, a crucial component is missing: an event listener for the button.
 
 Event listeners are essential in web development as they enable our applications to respond to user actions. In this case, we need to listen for clicks on the button to increment the counter.
 
