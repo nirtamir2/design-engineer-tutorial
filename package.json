@@ -1,16 +1,19 @@
 {
   "name": "design-engineer",
   "version": "0.0.1",
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
     "astro": "astro",
     "build": "astro check && astro build",
     "dev": "astro dev",
+    "format": "prettier \"**/*\" --write --ignore-unknown --log-level silent",
     "preview": "astro preview",
-    "start": "astro dev"
+    "start": "astro dev",
+    "type-check": "astro check && tsc --pretty --noEmit"
   },
   "dependencies": {
+    "@astrojs/ts-plugin": "^1.10.2",
     "@tutorialkit/react": "0.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -18,6 +21,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.7.0",
     "@astrojs/react": "^3.6.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@tutorialkit/astro": "0.2.3",
     "@tutorialkit/theme": "0.2.3",
     "@tutorialkit/types": "0.2.3",
@@ -25,6 +29,8 @@
     "@types/react": "^18.3.3",
     "astro": "^4.15.0",
     "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-packagejson": "^2.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.6",
     "typescript": "^5.4.5"
   }
 }

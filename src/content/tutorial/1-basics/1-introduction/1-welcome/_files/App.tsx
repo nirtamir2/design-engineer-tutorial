@@ -1,23 +1,25 @@
-import { useState } from 'react'
+import MyApp from "./MyApp";
+import svgPhone from "./iphone-silver.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
+  return (
+    <main className="flex h-screen select-none items-center justify-center overflow-hidden">
+      <div className="relative flex aspect-square h-screen items-center justify-center bg-gradient-to-br from-[#F1FAFD] from-20% to-[#E1F6FD] transition-colors duration-300">
+        <div className="absolute left-1/2 top-1/2 z-20 h-[814px] w-[376px] -translate-x-1/2 -translate-y-1/2">
+          <MyApp />
+        </div>
 
-  return (<>
-      <h1>Vite + React</h1>
-      <div className="bg-red-400">
-        <button onClick={() => setCount((count) => count + 33)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <div className="fixed bottom-[72px] left-1/2 z-50 h-1.5 w-[360px] -translate-x-1/2 px-28">
+          <div className="size-full rounded-3xl bg-black" />
+        </div>
+        <img
+          src={svgPhone}
+          alt="iphone mock"
+          className="pointer-events-none relative z-30"
+        />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </main>
+  );
 }
 
-export default App
+export default App;
