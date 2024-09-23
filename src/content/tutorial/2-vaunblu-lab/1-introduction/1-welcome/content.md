@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Welcome to TutorialKit
+title: WIP - TODO
 focus: /MyApp.tsx
 ---
 

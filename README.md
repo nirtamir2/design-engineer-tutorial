@@ -78,7 +78,7 @@ Here’s an example of how it would look like in `src/content/tutorial`:
 
 ```bash
 tutorial
-├── 1-basics-of-vite
+├── 2-vaunblu-lab-of-vite
 │   ├── 1-introduction
 │   │   ├── 1-welcome
 │   │   │   ├── content.md    # The content of your lesson
