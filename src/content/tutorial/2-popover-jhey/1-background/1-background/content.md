@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Implementing the background
+title: Preparing the background
 focus: /App.css
 ---
 

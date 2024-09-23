@@ -1,4 +1,5 @@
 ---
 type: chapter
-title: JHey Popover
+title: Navbar
 ---
+

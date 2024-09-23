@@ -1,4 +1,3 @@
-import MyApp from "./MyApp";
 import svgPhone from "./iphone-silver.svg";
 
 function App() {

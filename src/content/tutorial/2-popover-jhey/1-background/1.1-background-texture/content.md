@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Implementing the background grid
+title: Implementing the background grid lines
 focus: /App.css
 ---
 
