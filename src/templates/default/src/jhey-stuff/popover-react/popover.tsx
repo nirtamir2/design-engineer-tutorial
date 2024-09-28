@@ -1,25 +1,24 @@
-import blogSrc from "./icons/blog.svg";
-import boxSrc from "./icons/box.svg";
-import chatSrc from "./icons/chat.svg";
-import contactSrc from "./icons/contact.svg";
-import curlyArrowSrc from "./icons/curly-arrow.svg";
-import documentsSrc from "./icons/documents.svg";
-import hamburgerSrc from "./icons/hamburger.svg";
-import instagramSrc from "./icons/instagram.svg";
-import jheySrc from "./icons/jhey.svg";
-import linkedinSrc from "./icons/linkedin.svg";
-import mastodonSrc from "./icons/mastodon.svg";
-import newsletterSrc from "./icons/newsletter.svg";
-import settingsSrc from "./icons/settings.svg";
-import sponsorSrc from "./icons/sponsor.svg";
-import studySrc from "./icons/study.svg";
-import themeSrc from "./icons/theme.svg";
-import twitchSrc from "./icons/twitch.svg";
-import worldSrc from "./icons/world.svg";
-import xSrc from "./icons/x.svg";
-import youtubeSrc from "./icons/youtube.svg";
-// import "./popover.css";
-
+import { Component as BlogIcon } from "@/assets/blog.svg?svgUse";
+import { Component as BoxIcon } from "@/assets/box.svg?svgUse";
+import { Component as ChatIcon } from "@/assets/chat.svg?svgUse";
+import { Component as ContactIcon } from "@/assets/contact.svg?svgUse";
+import { Component as CurlyArrowIcon } from "@/assets/curly-arrow.svg?svgUse";
+import { Component as DocumentsIcon } from "@/assets/documents.svg?svgUse";
+import { Component as HamburgerIcon } from "@/assets/hamburger.svg?svgUse";
+import { Component as InstagramIcon } from "@/assets/instagram.svg?svgUse";
+import { Component as JheyIcon } from "@/assets/jhey.svg?svgUse";
+import { Component as LinkedinIcon } from "@/assets/linkedin.svg?svgUse";
+import { Component as MastodonIcon } from "@/assets/mastodon.svg?svgUse";
+import { Component as NewsletterIcon } from "@/assets/newsletter.svg?svgUse";
+import { Component as SettingsIcon } from "@/assets/settings.svg?svgUse";
+import { Component as SponsorIcon } from "@/assets/sponsor.svg?svgUse";
+import { Component as StudyIcon } from "@/assets/study.svg?svgUse";
+import { Component as ThemeIcon } from "@/assets/theme.svg?svgUse";
+import { Component as TwitchIcon } from "@/assets/twitch.svg?svgUse";
+import { Component as WorldIcon } from "@/assets/world.svg?svgUse";
+import { Component as XIcon } from "@/assets/x.svg?svgUse";
+import { Component as YoutubeIcon } from "@/assets/youtube.svg?svgUse";
+import "./popover.css";
 
 function Popover() {
   return (
@@ -48,13 +47,13 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={studySrc} alt="" className="size-6" />
+                    <StudyIcon className="size-6" />
                     <span>CSS Animations Course</span>
                   </a>
                 </li>
                 <li>
                   <a href="" target="_blank" rel="noopener noreferrer">
-                    <img src={worldSrc} alt="" className="size-6" />
+                    <WorldIcon className="size-6"></WorldIcon>
                     <span>jhey.dev</span>
                   </a>
                 </li>
@@ -64,7 +63,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={xSrc} alt="x" />
+                    <XIcon alt="x"></XIcon>
                     <span>Follow for more</span>
                   </a>
                 </li>
@@ -74,7 +73,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={youtubeSrc} alt="YouTube" />
+                    <YoutubeIcon alt="YouTube"></YoutubeIcon>
                     <span>YouTube</span>
                   </a>
                 </li>
@@ -84,7 +83,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={contactSrc} alt="" />
+                    <ContactIcon></ContactIcon>
                     <span>Contact</span>
                   </a>
                 </li>
@@ -94,7 +93,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={blogSrc} className="size-6" alt="" />
+                    <BlogIcon className="size-6"></BlogIcon>
                     <span>Blog</span>
                   </a>
                 </li>
@@ -104,7 +103,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={sponsorSrc} alt="" className="size-6" />
+                    <SponsorIcon className="size-6"></SponsorIcon>
                     <span>Sponsor</span>
                   </a>
                 </li>
@@ -114,7 +113,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={newsletterSrc} className="size-6" alt="" />
+                    <NewsletterIcon className="size-6"></NewsletterIcon>
                     <span>Newsletter</span>
                   </a>
                 </li>
@@ -127,7 +126,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={xSrc} alt="" />
+                    <XIcon></XIcon>
                     <span>X</span>
                   </a>
                 </li>
@@ -137,7 +136,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={twitchSrc} alt="" />
+                    <TwitchIcon></TwitchIcon>
                     <span>Twitch</span>
                   </a>
                 </li>
@@ -147,7 +146,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={mastodonSrc} alt="" />
+                    <MastodonIcon></MastodonIcon>
                     <span>Mastodon</span>
                   </a>
                 </li>
@@ -157,7 +156,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={linkedinSrc} alt="" />
+                    <LinkedinIcon></LinkedinIcon>
                     <span>LinkedIn</span>
                   </a>
                 </li>
@@ -167,7 +166,7 @@ function Popover() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={instagramSrc} alt="" />
+                    <InstagramIcon></InstagramIcon>
                     <span>Instagram</span>
                   </a>
                 </li>
@@ -176,23 +175,23 @@ function Popover() {
           </div>
         </div>
         <ul aria-hidden="true">
-          <li style="--i: 0">
-            <img src={chatSrc} className="size-6" alt="" />
+          <li style={{ "--i": 0 }}>
+            <ChatIcon className="size-6"></ChatIcon>
           </li>
-          <li style="--i: 1">
-            <img src={boxSrc} className="size-6" alt="" />
+          <li style={{ "--i": 1 }}>
+            <BoxIcon className="size-6"></BoxIcon>
           </li>
-          <li style="--i: 2">
-            <img src={settingsSrc} className="size-6" alt="" />
+          <li style={{ "--i": 2 }}>
+            <SettingsIcon className="size-6"></SettingsIcon>
           </li>
-          <li style="--i: 3">
-            <img src={documentsSrc} className="size-6" alt="" />
+          <li style={{ "--i": 3 }}>
+            <DocumentsIcon className="size-6"></DocumentsIcon>
           </li>
-          <li style="--i: 4">
-            <img src={themeSrc} className="theme-icon" alt="" />
+          <li style={{ "--i": 4 }}>
+            <ThemeIcon className="theme-icon"></ThemeIcon>
           </li>
-          <li style="--i: 5">
-            <img src={hamburgerSrc} className="size-6" alt="" />
+          <li style={{ "--i": 5 }}>
+            <HamburgerIcon className="size-6"></HamburgerIcon>
           </li>
         </ul>
       </div>
@@ -206,33 +205,33 @@ function Navbar() {
       <ul>
         <li>
           <a href="#">
-            <img src={chatSrc} className="size-6" alt="" />
+            <ChatIcon className="size-6"></ChatIcon>
           </a>
         </li>
         <li>
           <a href="#">
-            <img src={boxSrc} className="size-6" alt="" />
+            <BoxIcon className="size-6"></BoxIcon>
           </a>
         </li>
         <li>
           <a href="#">
-            <img src={settingsSrc} className="size-6" alt="" />
+            <SettingsIcon className="size-6"></SettingsIcon>
           </a>
         </li>
         <li>
           <a href="#">
-            <img src={documentsSrc} className="size-6" alt="" />
+            <DocumentsIcon className="size-6"></DocumentsIcon>
           </a>
         </li>
         <li>
           <button className="theme-toggler">
             <span className="sr-only">Toggle Theme</span>
-            <img src={themeSrc} className="theme-icon" alt="" />
+            <ThemeIcon className="theme-icon"></ThemeIcon>
           </button>
         </li>
         <li>
           <button popovertarget="menu" popovertargetaction="toggle">
-            <img src={hamburgerSrc} className="size-6" alt="" />
+            <HamburgerIcon className="size-6"></HamburgerIcon>
             <span className="sr-only">Open menu</span>
           </button>
         </li>
@@ -248,7 +247,7 @@ export function Main() {
       <Navbar />
       <div className="arrow">
         <label>play with me.</label>
-        <img src={curlyArrowSrc} alt="" />
+        <CurlyArrowIcon></CurlyArrowIcon>
       </div>
       <a
         className="bear-link"
@@ -256,7 +255,7 @@ export function Main() {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img src={jheySrc} className="w-9" alt="" />
+        <JheyIcon className="w-9"></JheyIcon>
       </a>
     </>
   );
