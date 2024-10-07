@@ -41,6 +41,19 @@ body::before {
     color: var(--color);
   }
 }
+@layer components {
+  .theme-icon {
+    .theme-icon path {
+      display: none;
+    }
+
+    [data-theme="system"] .theme-icon path:nth-of-type(1),
+    [data-theme="light"] .theme-icon path:nth-of-type(2),
+    [data-theme="dark"] .theme-icon path:nth-of-type(3) {
+      display: block;
+    }
+  }
+}
 
 /*[aria-hidden] li,*/
 /*.nav li {*/
